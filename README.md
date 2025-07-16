@@ -1,48 +1,73 @@
-# 🎬 CinéExplorer - Application de Gestion de Films
+# Welcome to your Lovable project
 
-Une application moderne et interactive pour découvrir, noter et organiser votre collection de films préférés.
+## Project info
 
-## 🚀 Fonctionnalités
+**URL**: https://lovable.dev/projects/d8bd7156-9030-4ab1-ba5b-19a5751f332a
 
-- **Recherche avancée** : Recherche par titre, réalisateur, acteur
-- **Filtres intelligents** : Par genre, année, note, durée
-- **Cartes visuelles** : Interface moderne avec posters et détails
-- **Système de notation** : Notez vos films sur 5 étoiles
-- **Listes personnelles** : Watchlist et films déjà vus
-- **Statistiques** : Suivi de vos habitudes de visionnage
+## How can I edit this code?
 
-## 🛠️ Technologies
+There are several ways of editing your application.
 
-- **React 18** avec TypeScript
-- **Tailwind CSS** pour le design
-- **Shadcn/ui** pour les composants
-- **Lucide React** pour les icônes
-- **Vite** pour le build
+**Use Lovable**
 
-## 📦 Installation
+Simply visit the [Lovable Project](https://lovable.dev/projects/d8bd7156-9030-4ab1-ba5b-19a5751f332a) and start prompting.
 
-```bash
-# Cloner le projet
-git clone <URL_DU_REPO>
-cd cine-explorer
+Changes made via Lovable will be committed automatically to this repo.
 
-# Installer les dépendances
-npm install
+**Use your preferred IDE**
 
-# Lancer en développement
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-## 🌐 Déploiement
+**Edit a file directly in GitHub**
 
-### GitHub Pages
-1. Connectez le projet GitHub dans Lovable
-2. Utilisez "Share → Publish" pour déployer
-3. Configurez GitHub Pages dans les paramètres du repository
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### URL de déploiement
-L'application sera disponible sur votre domaine GitHub Pages.
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-**Développé par Kaouther Aguerbaoui** - Projet final IA
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/d8bd7156-9030-4ab1-ba5b-19a5751f332a) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
