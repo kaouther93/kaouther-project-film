@@ -8,44 +8,46 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 25 30% 98%;
-    --foreground: 20 20% 15%;
+    --background: 220 30% 98%;
+    --foreground: 220 20% 15%;
 
-    --card: 25 30% 98%;
-    --card-foreground: 20 20% 15%;
+    --card: 220 30% 98%;
+    --card-foreground: 220 20% 15%;
 
-    --popover: 25 30% 98%;
-    --popover-foreground: 20 20% 15%;
+    --popover: 220 30% 98%;
+    --popover-foreground: 220 20% 15%;
 
-    --primary: 16 82% 58%;
-    --primary-foreground: 25 30% 98%;
-    --primary-glow: 16 82% 68%;
+    --primary: 347 77% 50%;
+    --primary-foreground: 220 30% 98%;
+    --primary-glow: 347 77% 60%;
 
-    --secondary: 35 85% 88%;
-    --secondary-foreground: 20 20% 15%;
+    --secondary: 220 20% 92%;
+    --secondary-foreground: 220 20% 15%;
 
-    --muted: 35 85% 95%;
-    --muted-foreground: 20 20% 45%;
+    --muted: 220 20% 95%;
+    --muted-foreground: 220 20% 45%;
 
-    --accent: 40 95% 65%;
-    --accent-foreground: 20 20% 15%;
+    --accent: 280 65% 60%;
+    --accent-foreground: 220 30% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 25 30% 98%;
+    --destructive-foreground: 220 30% 98%;
 
-    --border: 35 85% 90%;
-    --input: 35 85% 90%;
-    --ring: 16 82% 58%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 347 77% 50%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(16 82% 58%), hsl(40 95% 65%));
-    --gradient-subtle: linear-gradient(180deg, hsl(25 30% 98%), hsl(35 85% 96%));
-    --gradient-warm: linear-gradient(45deg, hsl(16 82% 58% / 0.1), hsl(40 95% 65% / 0.1));
+    /* Gradients E-commerce */
+    --gradient-hero: linear-gradient(135deg, hsl(347 77% 50%), hsl(280 65% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 30% 98%), hsl(220 20% 95%));
+    --gradient-warm: linear-gradient(45deg, hsl(347 77% 50% / 0.1), hsl(280 65% 60% / 0.1));
+    --gradient-shop: linear-gradient(to right, hsl(347 77% 50%), hsl(280 65% 60%));
 
-    /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(16 82% 58% / 0.3);
-    --shadow-glow: 0 0 40px hsl(16 82% 58% / 0.2);
-    --shadow-soft: 0 4px 20px -4px hsl(20 20% 15% / 0.1);
+    /* Shadows E-commerce */
+    --shadow-elegant: 0 10px 30px -10px hsl(347 77% 50% / 0.2);
+    --shadow-glow: 0 0 40px hsl(347 77% 50% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsl(220 20% 15% / 0.1);
+    --shadow-product: 0 8px 32px -8px hsl(220 20% 15% / 0.12);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
